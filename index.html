@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>my-website</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    <style>
+        
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        .container{
+            background: url(wp8437475.jpg);
+            height: 100vh;
+            background-size: 100% 100%;
+        }
+        .container .navbar{
+            width: 100%;
+            height: 80px;
+            background-color: #597445;
+            opacity: 85%;
+        }
+        .navbar ul{
+            float: right;
+            margin-right: 60px;
+        }
+        .navbar .logo{
+            display: inline-block;
+            margin-left: 150px;
+            margin-top: 20px;
+        }
+        .navbar .logo a{
+            text-decoration: none;
+            font-size: 35px;
+            font-family: sans-serif;
+            color: #E7F0DC;
+        }
+        .navbar ul li{
+            list-style: none;
+            display: inline-block;
+            margin-right: 60px;
+            line-height: 80px;
+        }
+        .navbar ul li a{
+            color: #E7F0DC;
+            text-decoration: none;
+            font-size: 25px;
+            padding: 6px 13px;
+            font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        }
+        .navbar ul li a.active,
+        .navbar ul li a:hover{
+            background: #405e2d;
+            border-radius: 4px;
+            transition: .5s;
+        }
+        .container .center{
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%,-50%);
+            font-family: sans-serif;
+            user-select: none;
+        }
+        .center h1{
+            color: #E7F0DC;
+            font-size: 70px;
+            font-weight: bold;
+            width: 900px;
+            text-align: center;
+        }
+        .center h2{
+            color: #729762;
+            font-size: 50px;
+            font-weight: bold;
+            width: 885px;
+            margin-top: 10px;
+            text-align: center;
+        }
+        .center .buttons{
+            margin: 35px 280px;
+        }
+        .buttons button{
+            height: 50px;
+            width: 150px;
+            font-size: 18px;
+            color: #E7F0DC;
+            background: #405e2d;
+            border: #405e2d 1px;
+            border-radius: 20px;
+            cursor: pointer;
+            font-weight: bold;
+            transition: .5s;
+        }
+        .buttons button:hover{
+            background: #729762;
+        }
+        i{
+            margin-right: 15px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="navbar">
+            <div class="logo">
+                <a href="#">LOGO</a>
+            </div>
+            <ul>
+                <li><a href="#"><i class="fa-solid fa-house"></i>Home</a></li>
+                <li><a href="#"><i class="fa-solid fa-question"></i>About</a></li>
+                <li><a href="#"><i class="fa-solid fa-newspaper"></i>News</a></li>
+                <li><a href="#"><i class="fa-solid fa-phone"></i>Contact</a></li>
+            </ul>
+        </div>
+        <div class="center">
+            <h1>WELCOME</h1>
+            <h2>To My Website</h2>
+            <div class="buttons">
+                <button>More...</button>
+                <button>Register!</button>
+            </div>
+        </div>
+    </div>
+    
+</body>
+</html> 
